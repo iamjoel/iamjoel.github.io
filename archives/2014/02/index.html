@@ -3,17 +3,17 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Archives: 2014/2 | Hexo</title>
+  <title>Archives: 2014/2 | Joel Blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="og:type" content="blog">
 <meta name="og:title">
-<meta name="og:url" content="http://yoursite.com/archives/2014/02/">
+<meta name="og:url" content="http://www.joeljoy.com/archives/2014/02/">
 <meta name="og:image">
-<meta name="og:site_name" content="Hexo">
+<meta name="og:site_name" content="Joel Blog">
 <meta name="og:description">
 <meta name="twitter:card" content="summary">
   
-    <link rel="alternative" href="/atom.xml" title="Hexo" type="application/atom+xml">
+    <link rel="alternative" href="/atom.xml" title="Joel Blog" type="application/atom+xml">
   
   
     <link rel="icon" href="/favicon.png">
@@ -31,7 +31,7 @@
   <div id="header-outer" class="outer">
     <div id="header-title" class="inner">
       <h1 id="logo-wrap">
-        <a href="/" id="logo">Hexo</a>
+        <a href="/" id="logo">Joel Blog</a>
       </h1>
       
     </div>
@@ -51,7 +51,7 @@
         <a id="nav-search-btn" class="nav-icon" title="Search"></a>
       </nav>
       <div id="search-form-wrap">
-        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><input type="submit" value="&#xF002;" class="search-form-submit"><input type="hidden" name="q" value="site:http://yoursite.com"></form>
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><input type="submit" value="&#xF002;" class="search-form-submit"><input type="hidden" name="q" value="site:http://www.joeljoy.com"></form>
       </div>
     </div>
   </div>
@@ -59,10 +59,10 @@
       <div class="outer">
         <section id="main">
   
-    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
+    <article id="post-hexo" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
-    <a href="/2014/02/03/hello-world/" class="article-date">
-  <time datetime="2014-02-03T02:40:28.000Z" itemprop="datePublished">Feb 3 2014</time>
+    <a href="/2014/02/03/hexo/" class="article-date">
+  <time datetime="2014-02-03T02:45:49.000Z" itemprop="datePublished">Feb 3 2014</time>
 </a>
     
   </div>
@@ -73,7 +73,7 @@
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2014/02/03/hello-world/">Hello World</a>
+      <a class="article-title" href="/2014/02/03/hexo/">hexo</a>
     </h1>
   
 
@@ -81,12 +81,49 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>Welcome to <a href="http://zespia.tw/hexo" target="_blank">Hexo</a>! This is your very first post. Check <a href="http://zespia.tw/hexo/docs" target="_blank">documentation</a> to learn how to use.</p>
+        <h2 id="-hexo">关于hexo</h2>
+<p><a href="">hexo</a>是一个基于Node.js的静态博客程序，可以方便的生成静态网页托管在github和Heroku上。作者是来自台湾的@tommy351。引用@tommy351的话，hexo：</p>
+<blockquote>
+<p>快速、简单且功能强大的 Node.js 博客框架。
+A fast, simple &amp; powerful blog framework, powered by Node.js.</p>
+</blockquote>
+<p>类似于jekyll、Octopress、Wordpress，我们可以用hexo创建自己的博客，托管到github或Heroku上，绑定自己的域名，用markdown写文章。</p>
+<h2 id="-">安装</h2>
+<figure class="highlight"><table><tr><td class="gutter"><pre>1
+</pre></td><td class="code"><pre>npm <span class="keyword">install</span> -g hexo
+</pre></td></tr></table></figure>
+
+<h2 id="-">初始化</h2>
+<figure class="highlight"><table><tr><td class="gutter"><pre>1
+</pre></td><td class="code"><pre>hexo init
+</pre></td></tr></table></figure>
+
+<h2 id="-">创建文章</h2>
+<figure class="highlight"><table><tr><td class="gutter"><pre>1
+</pre></td><td class="code"><pre>hexo <span class="keyword">new</span> <span class="string">'文章名'</span>
+</pre></td></tr></table></figure>
+
+<p>然后可以去source/_posts/文章名.md 去编辑文章内容</p>
+<h2 id="-">预览</h2>
+<figure class="highlight"><table><tr><td class="gutter"><pre>1
+2
+</pre></td><td class="code"><pre>hexo generate
+hexo <span class="keyword">server</span>
+</pre></td></tr></table></figure>
+
+<h2 id="-">命令缩写</h2>
+<p>hexo g == hexo generate<br>hexo d == hexo deploy<br>hexo s == hexo server<br>hexo n == hexo new    </p>
+<h2 id="-">参考及更多</h2>
+<ul>
+<li><a href="http://zespia.tw/hexo/" target="_blank">http://zespia.tw/hexo/</a></li>
+<li><a href="http://zipperary.com/2013/05/28/hexo-guide-1/#more" target="_blank">http://zipperary.com/2013/05/28/hexo-guide-1/#more</a></li>
+<li><a href="http://zipperary.com/2013/05/28/hexo-guide-2/" target="_blank">http://zipperary.com/2013/05/28/hexo-guide-2/</a> </li>
+</ul>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2014/02/03/hello-world/" data-id="3zyuxqt44n4zxm1j" class="article-share-link">Share</a>
+      <a data-url="http://www.joeljoy.com/2014/02/03/hexo/" data-id="a76pqngelf7hidnf" class="article-share-link">Share</a>
       
       
     </footer>
@@ -123,7 +160,7 @@
       <ul>
         
           <li>
-            <a href="/2014/02/03/hello-world/">Hello World</a>
+            <a href="/2014/02/03/hexo/">hexo</a>
           </li>
         
       </ul>
@@ -138,7 +175,7 @@
   
   <div class="outer">
     <div id="footer-info" class="inner">
-      &copy; 2014 John Doe<br>
+      &copy; 2014 Joel<br>
       Powered by <a href="http://zespia.tw/hexo/" target="_blank">Hexo</a>
     </div>
   </div>
