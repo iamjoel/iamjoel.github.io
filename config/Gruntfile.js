@@ -1,0 +1,51 @@
+module.exports = function(grunt) {
+    grunt.loadNpmTasks('grunt-contrib-copy');
+    grunt.loadNpmTasks('grunt-gh-pages');
+    grunt.loadNpmTasks('grunt-contrib-clean');
+
+    grunt.initConfig({
+        'clean':{
+            files: ['.grunt','build']
+        },
+        'copy': {
+            source: {
+                'src': ['source/_posts/*.md'],
+                'dest': 'build/_posts/',
+                expand: true, 
+                flatten: true
+            },
+            config: {
+                'src': [
+                    'package.json',
+                    'Gruntfile.js',
+                    '_config.yml'
+                ],
+                'dest': 'build/config/'
+            },
+            theme: {
+                'src': [
+                    'themes/pacman/_config.yml'
+                ],
+                'dest': 'build/theme/',
+                expand: true, 
+                flatten: true
+            },
+            readme:{
+                'src': [
+                    'README.md'
+                ],
+                'dest': 'build/'
+            }
+        },
+        'gh-pages': {
+            options: {
+                base: 'build',
+                branch: 'blog_source'
+            },
+            src: ['**']
+        }
+    });
+
+    grunt.registerTask('pre', ['clean','copy']);
+    grunt.registerTask('default', ['clean','copy','gh-pages']);
+};
