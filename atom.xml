@@ -1,0 +1,922 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title><![CDATA[Joel's Blog]]></title>
+  <subtitle><![CDATA[业精于勤而荒于嬉,行成于思而毁于随]]></subtitle>
+  <link href="/atom.xml" rel="self"/>
+  <link href="http://www.joeljoy.com/"/>
+  <updated>2014-06-01T06:49:30.414Z</updated>
+  <id>http://www.joeljoy.com/</id>
+  
+  <author>
+    <name><![CDATA[Joel]]></name>
+    <email><![CDATA[iamjoel007@gmail.com]]></email>
+  </author>
+  
+  <generator uri="http://zespia.tw/hexo/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[儿童节杂记]]></title>
+    <link href="http://www.joeljoy.com/2014/06/01/child-day/"/>
+    <id>http://www.joeljoy.com/2014/06/01/child-day/</id>
+    <published>2014-06-01T04:10:45.000Z</published>
+    <updated>2014-06-01T04:32:38.000Z</updated>
+    <content type="html"><![CDATA[<p>今天儿童节~不用给学校领导表演节目，又放假，yeah~
+<a id="more"></a></p>
+<p>上个月，这博客的皮肤莫名其妙没了，不喜欢原生皮肤。今天终于又折腾好了，XD。</p>
+<p>最近我的<a href="http://jianshu.io/users/EhUmA3/latest_articles" target="_blank">简说</a>还蛮受欢迎的，感觉有成就感，顺带着我的github有新收到些star~</p>
+<p>发现了个新广播：<a href="www.xiami.com/album/377420187?spm=a1z1s.7154410.1996860241.4.o3h2nE">你妹电台</a> 好妹妹乐队搞的，听着不错。</p>
+]]></content>
+    <summary type="html"><![CDATA[<p>今天儿童节~不用给学校领导表演节目，又放假，yeah~
+]]></summary>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[琐记]]></title>
+    <link href="http://www.joeljoy.com/2014/04/19/4-19-bit-things/"/>
+    <id>http://www.joeljoy.com/2014/04/19/4-19-bit-things/</id>
+    <published>2014-04-19T02:14:15.000Z</published>
+    <updated>2014-05-01T02:22:41.000Z</updated>
+    <content type="html"><![CDATA[<p>这周做的事都好琐碎。
+<a id="more"></a></p>
+<h2 id="requirejs">requirejs</h2>
+<p>倒腾了下requirejs。写了个requrejs加载模块的<a href="https://github.com/iamjoel/requirejs-demo" target="_blank">demo</a>，包括用requirejs的插件来加载css和模板文件。以后还要研究下requirejs的优化，例如使用<a href="https://github.com/jrburke/r.js" target="_blank">r.js</a>。</p>
+<h2 id="gitbook">gitbook</h2>
+<p>gitbook是用来写可做代码交互的技术书籍的工具。是nodejs上的一个插件。支持markdown。<br>用gitbook，自己倒腾了本关于html5介绍的书，现在只写个开头。感兴趣的可以<a href="http://iamjoel.github.io/learn-html5/" target="_blank">瞅瞅</a>
+。</p>
+<h2 id="-">电影</h2>
+<p>彭浩翔（简称胖彭）-《低俗喜剧》。2012年上映的片子。片子是关于电影监制分享自己的苦逼生活。</p>
+<p>胖彭拍的电影没有不好看的，虽然是有些低俗，少儿不宜，哈哈哈。</p>
+<h2 id="-">音乐</h2>
+<p>Lenka - 《Like a song》。<br>Lenka的歌没有不好听的，那优美的声音。让人回味啊，回味~</p>
+<p>好妹妹乐队 - 《小小夜曲》。很适合睡前听。    </p>
+<h2 id="-">书</h2>
+<p>《web前端黑客技术揭秘》《欺骗的艺术》。我这是要变成一个黑客吗，哈哈哈。</p>
+]]></content>
+    <summary type="html"><![CDATA[<p>这周做的事都好琐碎。
+]]></summary>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[用Gitbook来写书]]></title>
+    <link href="http://www.joeljoy.com/2014/04/12/write-book-use-git-book/"/>
+    <id>http://www.joeljoy.com/2014/04/12/write-book-use-git-book/</id>
+    <published>2014-04-12T15:21:48.000Z</published>
+    <updated>2014-05-01T02:22:41.000Z</updated>
+    <content type="html"><![CDATA[<p>Gitbook </p>
+<blockquote>
+<p>用github/git 和 markdown来写编程书的工具</p>
+</blockquote>
+<a id="more"></a>
+
+<p>我们来看个用gitBook写的<a href="http://gitbookio.github.io/javascript/" target="_blank">demo</a> 。是不是很cool~</p>
+<p>关于如何安装，使用可以看<a href="http://www.gitbook.io/" target="_blank">官网</a>的介绍，以及<a href="https://github.com/GitbookIO/javascript" target="_blank">https://github.com/GitbookIO/javascript</a> 。<br>我自己也依葫芦画瓢搞了一个 </p>
+<p><a href="http://iamjoel.github.io/learn-html5/" target="_blank">http://iamjoel.github.io/learn-html5/</a>
+ 。值得说的是，基于grunt的grunt-gitbook，grunt-gh-pages很不错，感兴趣的朋友可以认真研究下。</p>
+<p>最近继续忙碌中，空闲的时候，书写起，哈哈~</p>
+]]></content>
+    <summary type="html"><![CDATA[<p>Gitbook </p>
+<blockquote>
+<p>用github/git 和 markdown来写编程书的工具</p>
+</blockquote>
+]]></summary>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[有效率的使用firefox]]></title>
+    <link href="http://www.joeljoy.com/2014/04/07/use-firefox-effective/"/>
+    <id>http://www.joeljoy.com/2014/04/07/use-firefox-effective/</id>
+    <published>2014-04-07T00:23:13.000Z</published>
+    <updated>2014-05-01T02:22:41.000Z</updated>
+    <content type="html"><![CDATA[<p>以此文记录使用firefox的一些技巧。
+<a id="more"></a></p>
+<h2 id="-">常用快捷键</h2>
+<p><code>Ctrl + F</code> 在网页中查找内容: <code>F3</code> 下一个,<code>Shift + F3</code> 上一个<br><code>Ctrl + L</code> 使地址栏获得焦点<br><code>Ctrl + K</code> 使地址栏旁的搜索栏获得焦点<br><code>Ctrl + Enter</code>  自动补全当前地址，并进入<br><code>Ctrl + D</code>  将当前页面保存到书签<br><code>Ctrl + H</code>  历史<br><code>Ctrl + B</code>  打开书签<br><code>Ctrl + J</code>  打开下载内容<br><code>Ctrl + Shift+ P</code> 隐私浏览模式（在隱私瀏覽視窗中，Firefox 不會保留任何瀏覽記錄、搜尋記錄、下載記錄、網頁表單輸入內容、Cookie、暫存檔案）<br>缩放页面<br><code>Ctrl + +</code> 放大<br><code>Ctrl + -</code> 缩小<br><code>Ctrl + 0</code> 默认大小    </p>
+<h2 id="-">标签页操作</h2>
+<p><code>Ctrl + Shift+ Tab</code> 激活左边一个标签页<br><code>Ctrl + Tab</code> 激活右边一个标签页<br><code>Ctrl + [0-8]</code>  到某个标签<br><code>Ctrl + 9</code> 选择最后标签页<br><code>Ctrl + t</code>  在当前窗口新建Tab<br><code>Ctrl+ shift + t</code>打开最近关闭的一个tab<br><code>Ctrl + n</code>  在新窗口新建Tab<br><code>Ctrl + w</code>  关闭当前tab<br><code>Ctrl + Shift + a</code> 打开附加组件<br><code>Ctrl + Shift + e</code> 一键显示所有tab    </p>
+<h2 id="-">网址搜索（在地址栏中输入）</h2>
+<p><code>* + 空格 + 关键字</code> 搜索满足条件的收藏的网站<br><code>^ + 空格 + 关键字</code> 搜索满足条件的浏览历史<br><code>% + 空格 + 关键字</code> 搜索满足条件的打开的标签        </p>
+<h2 id="-">设置</h2>
+<h3 id="-">禁用浏览器缓存</h3>
+<ol>
+<li>在地址栏中打<code>about:config</code>   </li>
+<li>找到”network.http.use-cache”，双击它直至它变为”False“</li>
+</ol>
+<h3 id="firefox-">firefox高级设置</h3>
+<p>在地址栏输入<code>about:config</code>进行修改。设置可查看 <a href="http://kb.mozillazine.org/About:config_entries" target="_blank">http://kb.mozillazine.org/About:config_entries</a></p>
+<h2 id="-">插件</h2>
+<h3 id="-firegestures">鼠标手势插件 firegestures</h3>
+<p>新建标签 LR<br>打开上次关闭的标签 RL<br>关闭标签 DR<br>上个标签 UL<br>下个标签 UR<br>刷新 UD<br>后退 L<br>前进 R    </p>
+<h3 id="-adblock">拦截广告插件 adblock</h3>
+<h3 id="-netvideohunter">下载页面上播放的视频插件 netvideohunter</h3>
+<h3 id="rss-">RSS 订阅插件</h3>
+<p>Sage  体验性上，还是没有一些专业做rss 阅读器的好，比如<a href="http` //www.feedly.com">feedly</a> 以及 <a href="http` //xianguo.com/">鲜果</a></p>
+<h3 id="-markdown-">让用markdown写邮件成为可能</h3>
+<p>Markdown here： http` //markdown-here.com/</p>
+<h3 id="-">设置迅雷作为默认下载器</h3>
+<p>FlashGot + Thunder 安装这两个插件。在工具——FlashGot——更多选择，在&quot;下载管理器“中选择”Thunder“，再到”下载“选项卡中，选中”接管所有的下载“。这样，你的下载工具就是迅雷了。 </p>
+<h3 id="web-">web开发</h3>
+<p>firebug<br>web developer<br>eventbugs(依赖firebug查看Dom事件)<br>firecookie(依赖firebug,查看cookie的)<br>use agent switcher (切换浏览器)<br>webscarab 修改请求和响应(有点fiddler)    </p>
+<p><code>web开发快捷键</code>F12<code>打开firebug</code>Ctrl + Shift + Delete<code>删除浏览器缓存</code>Ctrl + U `  查看源码    </p>
+<h3 id="-">阅读器</h3>
+<p><code>阅读epub格式的文件</code>  EPUBReader </p>
+<hr>
+<p>本来想写写响应式的css框架的，奈何（忙以及其他原因）。。。就改了以前写的东东 <a href="http://jianshu.io/p/qDuvBQ。" target="_blank">http://jianshu.io/p/qDuvBQ。</a></p>
+]]></content>
+    <summary type="html"><![CDATA[<p>以此文记录使用firefox的一些技巧。
+]]></summary>
+    
+      <category term="firefox" scheme="http://www.joeljoy.com/tags/firefox/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[在sublime中使用vim]]></title>
+    <link href="http://www.joeljoy.com/2014/03/26/use-vim-in-sublime/"/>
+    <id>http://www.joeljoy.com/2014/03/26/use-vim-in-sublime/</id>
+    <published>2014-03-26T12:21:33.000Z</published>
+    <updated>2014-05-01T02:22:41.000Z</updated>
+    <content type="html"><![CDATA[<h2 id="-sublime-vim">为什么要在sublime使用vim</h2>
+<p>vim被称为编辑器之神（emacs是神的编辑器）。最重要的特点是能快速的编辑文本。但vim的学习曲线让好多开发者望而却步。当然啦，苦尽甘来嘛~</p>
+<p><a id="more"></a>
+sublime也是个牛掰的编辑器，通过sublime与vim的互补，那么，想想够酷。当然，sublime中vim的功能是受限的，但也还说的过去。</p>
+<h2 id="-sublime-vim">在sublime中启用vim</h2>
+<p>sublime本身就支持vim。只是默认禁用了。</p>
+<p>在Settings-Default（<code>Preferences&gt;Settings-User</code>）里的末尾有一行，<code>&quot;ignored_packages&quot;: [&quot;Vintage&quot;]</code>来禁用vim。启用最简单的做法是，将   <code>ignored_packages</code>中的<code>Vintage</code>去掉。或者打开Settings-User（<code>Preferences&gt;Settings-User</code>），添加<code>&quot;ignored_packages&quot;:[]</code></p>
+<h2 id="vim-">vim的模式</h2>
+<p>vim有三个模式。一般模式，编辑模式和命令模式。</p>
+<p>sublime中的vim模式和原生的vim不一样。sublime只存在命令模式和编辑模式。sublime的命令模式对应vim的一般模式，编辑模式对应vim的编辑模式。在sublime的命令模式下，可以使用vim的命令，在编辑模式下，可以进行正常的编辑操作。</p>
+<p>按<code>esc</code>进入命令模式,按<code>i或a或o或O等</code>可进入编辑模式。在sublime的左下角会显示当前的模式。</p>
+<p>下面介绍的是命令都是命令模式下的命令。</p>
+<h2 id="-">光标移动</h2>
+<p><code>h</code> 左移一个字符<br><code>j</code> 下移一个字符<br><code>k</code> 上移一个字符<br><code>l</code> 右移一个字符<br><code>w</code> 移至下一个单词的开头<br><code>e</code> 移至下一个单词的末尾<br><code>b</code> 移至上一个单词的开头<br><code>gg</code> 移至第一行<br><code>ngg</code> 移至第n行<br><code>G</code> 移至最后一行<br><code>0</code> 移至行首<br><code>$</code> 移至行尾<br><code>m</code> 光标移动至页面中间<br><code>zz</code> 将当前行滚动至页面中间<br><code>H</code> 移动至当前页开头<br><code>L</code> 移动至当前页末尾       </p>
+<h2 id="-">进入编辑模式</h2>
+<p><code>i</code> 在当前位置插入<br><code>I</code> 在当前行首插入<br><code>a</code> 在当前位置的后面一个字符的位置插入<br><code>A</code> 在当前行尾插入<br><code>o</code> 在下一行插入<br><code>O</code> 在上一行插入    </p>
+<h2 id="-">常用基本命令</h2>
+<p><code>y</code> 复制<br><code>yy</code> 复制一行<br><code>p</code> 黏贴<br><code>x</code> 删除光标所在字符<br><code>d</code> 删除，必须与其他键组合使用<br><code>dd</code> 删除一行<br><code>u</code> 撤销上次的操作<br><code>v</code> 选择<br><code>n命令</code> 将命令执行n次,如<code>5dd</code>会删除5行<br><code>.</code> 重复刚刚的命令</p>
+<p>注：当命令模式下复制的东西，在编辑模式时，黏贴不了，只能在命令模式下黏贴。在编辑模式中复制的东西，命令模式下也黏贴不了。</p>
+<h2 id="-">组合命令</h2>
+<p>一般都组合命令都是
+量词 + 命令 + 光标移动命令,下面是几个例子：    </p>
+<p><code>dw</code> 删除光标所在的位置到单词的结束(d:删除,w到下个单词的开头)<br><code>db</code> 删除光标所在的位置到单词的开头<br><code>d0</code> 删除光标所在的位置到行首，类似的<code>d$</code>，删除光标所在的位置到行尾<br><code>10gg v 21gg d</code> 光标移到第十行，选择第十行到第二十行的内容，删除    </p>
+<h2 id="-">更多</h2>
+<p><a href="http://vim-adventures.com/" target="_blank">vim 大冒险</a><br><a href="http://linux.vbird.org/linux_basic/0310vi.php" target="_blank">鳥哥的 Linux 私房菜中关于vim的介绍</a></p>
+]]></content>
+    <summary type="html"><![CDATA[<h2 id="-sublime-vim">为什么要在sublime使用vim</h2>
+<p>vim被称为编辑器之神（emacs是神的编辑器）。最重要的特点是能快速的编辑文本。但vim的学习曲线让好多开发者望而却步。当然啦，苦尽甘来嘛~</p>
+<p>]]></summary>
+    
+      <category term="vim" scheme="http://www.joeljoy.com/tags/vim/"/>
+    
+      <category term="sublime" scheme="http://www.joeljoy.com/tags/sublime/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[grunt-bowercopy介绍]]></title>
+    <link href="http://www.joeljoy.com/2014/03/21/introduce-grunt-bowercopy/"/>
+    <id>http://www.joeljoy.com/2014/03/21/introduce-grunt-bowercopy/</id>
+    <published>2014-03-21T13:10:06.000Z</published>
+    <updated>2014-05-01T02:22:41.000Z</updated>
+    <content type="html"><![CDATA[<p>在介绍grunt-bowercopy之前,假定你是熟悉bower和grunt的（在本文末尾中有介绍bower与grunt的链接）。
+<a id="more"></a></p>
+<h2 id="-">用途</h2>
+<p>对使用bower的项目，安装好依赖后（<code>bower install</code>），依赖的目录结构是类似这样的:
+<img src="/image/introduce-grunt-bowercopy/file-dir.jpg" alt="file-dir"></p>
+<p>我们资源的目录是在src下的。我们只需要bower_components下的部分文件。例如对于jquery,我们只需要jquery.min.js，而不需要其他文件。</p>
+<p>我们当然可以人肉的从bower_components中复制需要的文件黏贴到src下。但是，好麻烦^-^。况且在一个项目的依赖很多时，依靠人肉，那就一场灾难了。这时候，就到grunt-bowercopy出场的时候了~</p>
+<p><a href="https://www.npmjs.org/package/grunt-bowercopy" target="_blank">grunt-bowercopy</a>通过声明要源文件和目的地的路径，将文件复制到指定位置。如果该项目没有安装依赖，那么在执行复制任务前，它会自动的执行<code>bower install</code>来安装依赖。</p>
+<p>grunt-bowercopy是依赖grunt的。</p>
+<h2 id="-">安装</h2>
+<figure class="highlight"><table><tr><td class="gutter"><pre>1
+</pre></td><td class="code"><pre>npm install grunt<span class="attribute">-bowercopy</span> <span class="subst">--</span>save<span class="attribute">-dev</span>
+</pre></td></tr></table></figure>
+
+<h2 id="-">示例</h2>
+<p><code>Gruntfile.js</code></p>
+<figure class="highlight"><table><tr><td class="gutter"><pre>1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+</pre></td><td class="code"><pre>grunt.initConfig({
+    bowercopy: {
+        options: {
+            srcPrefix: <span class="string">'bower_components'</span>
+            <span class="comment">//clean: false // default false</span>
+        },
+        libs: {
+            options: {
+                destPrefix: <span class="string">'libs/vendor'</span> <span class="comment">//目的地文件夹的路径</span>
+            },
+            files: {
+              <span class="string">'requirejs.js'</span>: <span class="string">'requirejs/require.js'</span>
+            }
+        }
+    }
+});
+<span class="built_in">require</span>( <span class="string">"load-grunt-tasks"</span> )( grunt );<span class="comment">//加载所有的grunt任务</span>
+</pre></td></tr></table></figure>
+
+<p>运行<code>grunt bowercopy</code>，会将<code>bower_component/requirejs/require.js</code> 移动到<code>libs/vendor/requirejs.js</code>。</p>
+<p>更多选项见 <a href="https://www.npmjs.org/package/grunt-bowercopy" target="_blank">https://www.npmjs.org/package/grunt-bowercopy</a></p>
+<h2 id="-">资源</h2>
+<h3 id="bower">bower</h3>
+<p><a href="http://bower.io/" target="_blank">http://bower.io/</a><br><a href="http://code.tutsplus.com/tutorials/meet-bower-a-package-manager-for-the-web--net-27774" target="_blank">http://code.tutsplus.com/tutorials/meet-bower-a-package-manager-for-the-web--net-27774</a><br><a href="http://iamjoel.github.io/2014/03/02/introduce-bower/" target="_blank">http://iamjoel.github.io/2014/03/02/introduce-bower/</a></p>
+<h3 id="grunt">grunt</h3>
+<p><a href="http://gruntjs.com/getting-started" target="_blank">http://gruntjs.com/getting-started</a><br><a href="http://weblog.bocoup.com/introducing-grunt/" target="_blank">http://weblog.bocoup.com/introducing-grunt/</a></p>
+]]></content>
+    <summary type="html"><![CDATA[<p>在介绍grunt-bowercopy之前,假定你是熟悉bower和grunt的（在本文末尾中有介绍bower与grunt的链接）。
+]]></summary>
+    
+      <category term="bower" scheme="http://www.joeljoy.com/tags/bower/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[机械键盘]]></title>
+    <link href="http://www.joeljoy.com/2014/03/15/mechanical-keyboard/"/>
+    <id>http://www.joeljoy.com/2014/03/15/mechanical-keyboard/</id>
+    <published>2014-03-15T14:19:59.000Z</published>
+    <updated>2014-05-01T02:22:41.000Z</updated>
+    <content type="html"><![CDATA[<p>作为一个靠电脑吃饭的家伙，键盘真的太重要啦。同时，也用烦了普通键盘（薄膜键盘）。也体验过机械键盘后→_→动了买机械键盘的念头。
+<a id="more"></a></p>
+<h3 id="-">什么是机械键盘</h3>
+<p><a href="http://zh.wikipedia.org/wiki/%E6%9C%BA%E6%A2%B0%E9%94%AE%E7%9B%98" target="_blank">维基百科</a>是这么说的：机械键盘（英文：Mechanical Keyboard），是一种键盘的类型，每一个按键都由一个独立的微动开关（Switch，通称为”轴“）组成，因此按键段落感较强，现通常为高端游戏外设。 </p>
+<p>机械键盘一个按键图
+<img src="/image/mechanical-keyboard/mechanical-keybord.png" alt="机械键盘一个按键图"></p>
+<p>薄膜键盘一个按键图
+<img src="/image/mechanical-keyboard/normal-keybord.png" alt="薄膜键盘一个按键图"></p>
+<h3 id="-">为什么要使用机械键盘</h3>
+<ul>
+<li>手感：机械键盘的手感绝对是薄膜键盘（普通键盘）无法比拟的</li>
+<li>使用寿命长：机械键盘一个按键的寿命几乎可以顶得上普通薄膜键盘105个键寿命</li>
+</ul>
+<p>当然价格比薄膜键盘贵啦。</p>
+<h3 id="-1000-http-mp-weixin-qq-com-s-__biz-mza3ndi2nzayng-mid-200038501-idx-1-sn-4a1ca93845b3e16b4d8aa2d10f9a737c-scene-1-rd-">机械键盘的常见轴的特点(摘自<a href="http://mp.weixin.qq.com/s?__biz=MzA3NDI2NzAyNg==&amp;mid=200038501&amp;idx=1&amp;sn=4a1ca93845b3e16b4d8aa2d10f9a737c&amp;scene=1#rd" target="_blank">【创业男友有话说】为什么要花1000块买个键盘</a>)</h3>
+<p>青轴（Keyclick）
+<img src="/image/mechanical-keyboard/Keyclick.gif" alt="青轴"> 
+敲击时带有段落感，触发键程为2.4mm左右，压力克数为60g，非常适合打字使用。稍显不足的是噪音偏大。每一次输入，青轴均伴有清脆的“嘀嗒”输入声，使用者最容易在该轴上找到机械键盘的感觉，会使电脑输入变成一种莫大的享受。青轴段落感最强，Click声最大，机械感最强，是机械键盘的代表轴。</p>
+<p>黑轴（LinearAction）
+<img src="/image/mechanical-keyboard/LinearAction.gif" alt="黑轴">
+黑轴的触感是直上直下，没有任何段落感，噪音较小。其触发键程为1.5mm，压力克数为80g，单个轴的使用寿命长达5000万次（其他轴为2000万次），非常适合游戏使用。黑轴是大众键盘，有较强的反弹力和直上直下的触底按键感。它具有行云流水般最极速的输入快感，打比喻说就像按下自动圆珠笔的笔帽，有种按着弹簧的感觉，但不包括按到底的“嘀嗒”声，按到底则更像青轴。</p>
+<p>茶轴（AlternateActionorErgonamic）
+<img src="/image/mechanical-keyboard/AlternateActionorErgonamic.gif" alt="茶轴">
+茶轴的手感比较均衡，也可说是较为中庸，带有段落感，触发键程为2.0mm。另外，其压力克数比较小，只有60g，敲击显得非常轻松，能兼顾打字和游戏使用。敲击茶轴的感觉如同小范围内的极速轻金属碰撞，很神秘的那么一下，结合了青轴和黑轴的特点。它的段落感，你按下一个键后段落感可以给你确认感，同时压力不太大，适合那种瞬间飚快捷键的快手。</p>
+<p>红轴
+<img src="/image/mechanical-keyboard/redClick.gif" alt="红轴">
+是2011年初Cherry推出的新轴，它的动作曲线和手感与黑轴类似，敲击时没有段落感，直上直下，触发键程也同为2.0mm，不过压力克数更小，只有60g，敲击时更加轻松，能很好兼顾游戏和打字的使用需求。红轴的母版是一个传说中的类别，轻黑，也是就是把茶轴或者青轴的弹簧放到黑轴里面，保持了黑轴顺滑的手感。红轴是除了青轴之外最适合长时间文字输入的。</p>
+<h3 id="ps">ps</h3>
+<p>目前市面上常见的机械键盘均使用德国确励公司（Cherry，通称樱桃）的MX机械轴（十字口）。Cherry的机械键盘也相当不错。</p>
+]]></content>
+    <summary type="html"><![CDATA[<p>作为一个靠电脑吃饭的家伙，键盘真的太重要啦。同时，也用烦了普通键盘（薄膜键盘）。也体验过机械键盘后→_→动了买机械键盘的念头。
+]]></summary>
+    
+      <category term="玩物" scheme="http://www.joeljoy.com/tags/%E7%8E%A9%E7%89%A9/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[买车信息]]></title>
+    <link href="http://www.joeljoy.com/2014/03/07/buy-car-info/"/>
+    <id>http://www.joeljoy.com/2014/03/07/buy-car-info/</id>
+    <published>2014-03-07T14:09:52.000Z</published>
+    <updated>2014-05-01T02:22:41.000Z</updated>
+    <content type="html"><![CDATA[<p>准备买车，而自己对车不太了解。记录下了解的一些关于车的信息。仅供参考。
+<a id="more"></a></p>
+<h3 id="-">国产车</h3>
+<p>不推荐买，虽然国产车经济实惠不费油，但是开个一两年后，零件各种坏，各种维修。国产中比较好的是奇瑞。</p>
+<h3 id="-">日本车</h3>
+<p>很适合在城市代步。省油。动力比较足，比如，锐志。卡罗拉。但碰撞起来比较脆，但也不意味着不安全。其正面碰撞测试还可以，但听说其他方向的碰撞不怎么样。丰田的具备GOA车身的车（皇冠，锐志 <a href="http://www.ftms.com.cn/safe/techology_car.php" target="_blank">更多</a> ），貌似还蛮安全的。车身能有效吸收碰撞能量，并在其分散至车身各部位骨架，有效的减少驾驶舱的变形程度。</p>
+<p>丰田优于本田。</p>
+<h3 id="-">韩系车</h3>
+<p>外形比较漂亮。    </p>
+<p>现代优于起亚。</p>
+<h3 id="-">美国车</h3>
+<p>车会比较重-&gt;费油。显得动力不足。但安全性上还不错。</p>
+<h3 id="-">德国车</h3>
+<p>比较贵,感觉比较高端，安全性上还不错。</p>
+<h3 id="-">涡轮增压</h3>
+<ul>
+<li>省油</li>
+<li>保养的成本较大</li>
+<li>1.4T相当于2.0L</li>
+</ul>
+<h3 id="-">自动档</h3>
+<p>优势</p>
+<ul>
+<li>操作简单：不用担心熄火啦</li>
+<li>起步快</li>
+<li>价格贵一点</li>
+</ul>
+<p>劣势</p>
+<ul>
+<li>有点儿费油，但优于技术的改进，劣势在不断减少</li>
+</ul>
+<h3 id="-">内饰</h3>
+<ul>
+<li>黑色比较好。白色的话，座椅在夏天可能会染上裤子的颜色</li>
+</ul>
+<h3 id="-">轮胎</h3>
+<ul>
+<li>米其林 选择比较多，有比较舒适，胎噪少的；有耐磨的</li>
+<li>马牌 德国传统品牌。注重轮胎的安全性,可靠性,驾驶性能</li>
+<li>韩泰 耐磨，较硬</li>
+</ul>
+<h3 id="-">车载导航</h3>
+<p>不要在买车的时候装。</p>
+<h3 id="-">保养</h3>
+<p>7500km包养一次</p>
+]]></content>
+    <summary type="html"><![CDATA[<p>准备买车，而自己对车不太了解。记录下了解的一些关于车的信息。仅供参考。
+]]></summary>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[客户端包管理工具bower介绍]]></title>
+    <link href="http://www.joeljoy.com/2014/03/02/introduce-bower/"/>
+    <id>http://www.joeljoy.com/2014/03/02/introduce-bower/</id>
+    <published>2014-03-02T02:00:24.000Z</published>
+    <updated>2014-05-01T02:22:41.000Z</updated>
+    <content type="html"><![CDATA[<p>客户端(前端/浏览器端)包管理工具是相对于服务器端包管理工具（nodejs的npm,ruby的gem等）的。有了包管理工具，我们可以方便对项目的依赖进行管理：添加依赖，更新依赖，删除依赖。
+<a id="more"></a></p>
+<p>最近在研究客户端包管理工具。<a href="http://bower.io/" target="_blank">bower</a>是一个不错的包管理工具。</p>
+<h2 id="-">安装</h2>
+<p>bower是依赖node和npm的，使用npm来安装</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre>1
+</pre></td><td class="code"><pre>npm <span class="keyword">install</span> -g bower
+</pre></td></tr></table></figure>
+
+<p>同时，你也要保证安装了git。</p>
+<h3 id="-git-">对于git的安装以及要求</h3>
+<p>在windows下，安装git后，要将path中加入git的可执行文件所在地址。具体见<a href="http://bower.io/" target="_blank">http://bower.io/</a>  的A note for Windows users。
+或者window下一个比较简单的解决方式是，安装github，在github的命令行下运行bower。</p>
+<h2 id="-">使用</h2>
+<p>bower的用法和npm是基本一致的。熟悉npm的可以使用npm的方式来使用bower。</p>
+<p>bower的依赖声明保存于<code>bower.json</code>（对应于npm的package.json）。</p>
+<h3 id="-">安装模块</h3>
+<figure class="highlight"><table><tr><td class="gutter"><pre>1
+</pre></td><td class="code"><pre>bower install <span class="xml"><span class="tag">&lt;<span class="title">package</span>&gt;</span></span>#<span class="xml"><span class="tag">&lt;<span class="title">version</span>&gt;</span></span> [<span class="link_label">--save[-dev</span>]][-g]
+</pre></td></tr></table></figure>
+
+<p>选项</p>
+<ul>
+<li><code>--save</code> 将新安装的依赖写入<code>bower.json</code>的dependencies属性中</li>
+<li><code>--save-dev</code> 将新安装的依赖写入<code>bower.json</code>的devDependencies属性中。devDependencies中里面放的依赖是开发环境中的使用的依赖，如测试，任务管理（grunt）之类的。</li>
+<li><code>-g</code> 全局安装，这意味着你可以在命令行中使用，但不能在代码中使用。</li>
+</ul>
+<h4 id="-">指定安装模块的地址</h4>
+<p>默认的安装模块的地址为<code>bower_components</code>文件夹。要指定安装模块的地址可以在项目根路径下创建<code>.bowerrc</code>文件，文件内容为</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre>1
+2
+3
+</pre></td><td class="code"><pre>{
+  "<span class="attribute">directory</span>": <span class="value"><span class="string">"your_location"</span>
+</span>}
+</pre></td></tr></table></figure>
+
+<p>注意，<code>.bowerrc</code>必须和<code>bower.json</code>在同一个文件夹下。</p>
+<h3 id="-">搜索模块</h3>
+<p>命令行中使用</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre>1
+</pre></td><td class="code"><pre>bower search [<span class="tag">&lt;<span class="title">name</span>&gt;</span>]
+</pre></td></tr></table></figure>
+
+<p><code>name</code>是对<code>package-name</code>的模糊匹配。<br>也可以在浏览器中打开 <a href="http://bower.io/search/" target="_blank">http://bower.io/search/</a> 。</p>
+<h3 id="-">更新模块</h3>
+<figure class="highlight"><table><tr><td class="gutter"><pre>1
+</pre></td><td class="code"><pre>bower update &lt;<span class="built_in">package</span>-name&gt;
+</pre></td></tr></table></figure>
+
+<h3 id="-">卸载模块</h3>
+<figure class="highlight"><table><tr><td class="gutter"><pre>1
+</pre></td><td class="code"><pre>bower uninstall &lt;<span class="built_in">package</span>-name&gt;
+</pre></td></tr></table></figure>
+
+<h3 id="-">显示该项目的依赖</h3>
+<figure class="highlight"><table><tr><td class="gutter"><pre>1
+</pre></td><td class="code"><pre>bower <span class="keyword">ls</span>
+</pre></td></tr></table></figure>
+
+<h3 id="-">帮助</h3>
+<p>帮助概览</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre>1
+</pre></td><td class="code"><pre><span class="comment">bower</span> <span class="literal">-</span><span class="literal">-</span><span class="comment">help</span>
+</pre></td></tr></table></figure>
+
+<p>某个命令的具体的帮助</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre>1
+</pre></td><td class="code"><pre>bower help &lt;<span class="command"><span class="keyword">command</span>&gt;</span>
+</pre></td></tr></table></figure>
+
+<h3 id="-">注册自己的模块</h3>
+<p>还没玩过</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre>1
+</pre></td><td class="code"><pre>bower register <span class="subst">&lt;</span>my<span class="attribute">-package</span><span class="attribute">-name</span><span class="subst">&gt;</span> <span class="subst">&lt;</span>git<span class="attribute">-endpoint</span><span class="subst">&gt;</span>
+</pre></td></tr></table></figure>
+
+<p>下面，我还会写两篇文章</p>
+<ul>
+<li>bower与其他客户端包管理工具的比较</li>
+<li>介绍<a href="https://www.npmjs.org/package/grunt-bowercopy" target="_blank">grunt-bowercopy</a>：使用grunt-bowercopy将需要的文件从依赖中取出，放到指定位置</li>
+</ul>
+<h2 id="-">参考</h2>
+<ul>
+<li><a href="http://bower.io/" target="_blank">http://bower.io/</a></li>
+<li><a href="https://github.com/bower/bower/wiki/FAQ" target="_blank">https://github.com/bower/bower/wiki/FAQ</a></li>
+</ul>
+]]></content>
+    <summary type="html"><![CDATA[<p>客户端(前端/浏览器端)包管理工具是相对于服务器端包管理工具（nodejs的npm,ruby的gem等）的。有了包管理工具，我们可以方便对项目的依赖进行管理：添加依赖，更新依赖，删除依赖。
+]]></summary>
+    
+      <category term="bower" scheme="http://www.joeljoy.com/tags/bower/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[npm install --save 不再默认使用波浪符]]></title>
+    <link href="http://www.joeljoy.com/2014/03/01/npm-no-longer-defaults-to-tildes/"/>
+    <id>http://www.joeljoy.com/2014/03/01/npm-no-longer-defaults-to-tildes/</id>
+    <published>2014-03-01T02:02:07.000Z</published>
+    <updated>2014-05-01T02:22:41.000Z</updated>
+    <content type="html"><![CDATA[<p>原文 <a href="http://fredkschott.com/post/2014/02/npm-no-longer-defaults-to-tildes/" target="_blank">http://fredkschott.com/post/2014/02/npm-no-longer-defaults-to-tildes/</a>
+<a id="more"></a></p>
+<p>上周三(2014/02/18/)发布了<a href="http://blog.nodejs.org/2014/02/18/node-v0-10-26-stable/" target="_blank">新的稳定的node版本</a>，随之而来的是新版本的npm。这次更新修复了很多bugs，但是最易见的变化是,当使用<code>npm install --save</code>时，模块版本号的前缀使用了脱字符(<code>^</code>)替代了波浪符(<code>~</code>)。</p>
+<p>这对你来说意味着什么？好吧，首先你要知道这两者之间的区别。简单来说，脱字符匹配最近的最小版本（版本号中间的数字）。比如<code>~1.2.3</code>会匹配所有的<code>1.2.x</code>版本，但不匹配<code>1.3.0</code>。npm<a href="https://github.com/mikolalysenko/npm/commit/2d970344545d7dfadf217365755afd0cdca5b1f1" target="_blank">一开始</a>执行<code>--save</code>的默认行为就是这样的，你可能已经习惯了在<a href="https://www.npmjs.org/doc/files/package.json.html#dependencies" target="_blank">package.json</a>看到它了。脱字符，另一方面，匹配更加宽泛。它会更新至最近的主要版本（版本号中第一个数字）。<code>1.2.3</code>会匹配所有的<code>1.x.x</code>的发布版本，包括<code>1.3.0</code>，但会止于<code>2.0.0</code>。npm的<a href="https://github.com/isaacs/node-semver" target="_blank">语义化版本解析</a>解释了区别</p>
+<blockquote>
+<p>~1.2.3 := &gt;=1.2.3-0 &lt;1.3.0-0 &quot;合理的接近1.2.3&quot; </p>
+<p>1.2.3 := &gt;=1.2.3-0 &lt;2.0.0-0 &quot;与1.2.3兼容&quot;
+― isaacs/node-semver(重点添加)</p>
+</blockquote>
+<p>&quot;合理的接近&quot;和&quot;兼容&quot;的不同点可追溯到语义化版本（SemVer）。根据版本:</p>
+<blockquote>
+<p>给一个版本号 主要.次要.补丁,增加：</p>
+<ul>
+<li>主要版本 当你使API不兼容旧版本时</li>
+<li>次要版本 当你添加向后兼容的方法</li>
+<li>补丁版本 当你修复一些向后兼容的bugs</li>
+</ul>
+<p>- semver.org</p>
+</blockquote>
+<p>只有主要的版本才能破坏兼容性，开发者可以随意的更改次要和补丁版本，在主版本不变的情况下。脱字符相信规则被遵守，而波浪符保持悲观态度。</p>
+<p>当然，所有规则都有意外，语义化版本存在一个预发布版本：</p>
+<blockquote>
+<p>主版本0（0.y.z）是处于初始化开发状态。任何事在任意时间都会改变。公共的API不应该被认为是稳定的。</p>
+</blockquote>
+<p>不像1.0或更高版本，0.x的软件只保证一件事： &quot;任何事会在任何时间发生改变&quot;。开发者在早期可以毫无约束的自由并快速的增加版本，这时大部分情况下保持在一个基本版本是明智的。补丁版本通常是修改bugs和内部改变，次要版本是为了其他的情况。</p>
+<p>npm的semver解析基于此是明智的，波浪符的行为匹配”付责任的接近“版本是可以保证不改变的。脱字符，不以这种规则工作的。为保持兼容，脱字符只会匹配主版本。但对于0版本的软件，脱字符的行为是和波浪线的行为是一样的。</p>
+<p>你可能不会立刻注意的到什么变化，并且你的package.json仍然是这个样子。但当你升级了node，然后你添加了一个新的依赖，你会注意到<code>package.json</code>里出现一个脱字符。</p>
+<p>最后，你可能考虑将所有的依赖用一个（<code>^</code>）替换另一个（<code>~</code>）,或替换部分。关于选择哪个在于你的使用情况，使用的依赖和你敢于承担多大的风险。</p>
+]]></content>
+    <summary type="html"><![CDATA[<p>原文 <a href="http://fredkschott.com/post/2014/02/npm-no-longer-defaults-to-tildes/" target="_blank">http://fredkschott.com/post/2014/02/npm-no-longer-defaults-to-tildes/</a>
+]]></summary>
+    
+      <category term="npm" scheme="http://www.joeljoy.com/tags/npm/"/>
+    
+      <category term="nodejs" scheme="http://www.joeljoy.com/tags/nodejs/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[用TDD和BDD来测试MEAN的介绍]]></title>
+    <link href="http://www.joeljoy.com/2014/02/23/tdd-and-bdd-with-the-mean-stack-introduction/"/>
+    <id>http://www.joeljoy.com/2014/02/23/tdd-and-bdd-with-the-mean-stack-introduction/</id>
+    <published>2014-02-23T02:42:27.000Z</published>
+    <updated>2014-05-01T02:22:41.000Z</updated>
+    <content type="html"><![CDATA[<p>原文 <a href="http://attackofzach.com/tdd-bdd-mean-part1/" target="_blank">http://attackofzach.com/tdd-bdd-mean-part1/</a></p>
+<p>随着<a href="http://thecodebarbarian.wordpress.com/2013/04/29/easy-web-prototyping-with-mongodb-and-nodejs/" target="_blank">MEAN stack</a>越来越多的被使用，出现了大量的测试MEAN方面的策略。随着我深入研究服务器端和浏览器端的自动化测试MEAN stack的方案,我发现很难找到一些关于如何搭建支持<a href="http://martinfowler.com/articles/mocksArentStubs.html#ClassicalAndMockistTesting" target="_blank">mockist style</a>的测试驱动的环境的资料或建议。许多作者提供了一些轻量级的建议，但那些建议往往是过去的一些解决方案。我希望能制定一个满足如下条件的工具</p>
+<ul>
+<li>自动化</li>
+<li>mocklist 单元测试</li>
+<li>BDD/ATDD 测试</li>
+<li>End-To-End系统的测试</li>
+</ul>
+<p>如果你想研究这技术的实现代码，我建了个<a href="https://github.com/zpratt/thoughtsom" target="_blank">github项目</a>来描述这种技术。</p>
+<p>下面我假设你已经了解MongoDB和nodejs。如果你不了解，可以查看下 <a href="https://github.com/cmoudy/mean-vagrant" target="_blank">a vagrant solution</a>和 <a href="http://www.mean.io/" target="_blank">mean.io</a>。</p>
+<p>我的目标之一是尝试找到既能在服务器端也能在浏览器端都能工作的工具。同时我也花了很多精力来研究自动化，因此我的目标是避免人工打开浏览器来执行测试。事实证明这个目标是充满挑战的。xUnit-side的测试和BDD-side的测试的目标是类似的。但是我们的要坚持以前的目标。</p>
+<p>让我来介绍下能在前端和后端都工作的很好的工具：</p>
+<ul>
+<li><a href="http://gruntjs.com/" target="_blank">Grunt</a> - 任务管理</li>
+<li><a href="http://visionmedia.github.io/mocha/" target="_blank">Mocha</a> - 测试框架</li>
+<li><a href="http://chaijs.com/" target="_blank">Chai</a> - 断言库</li>
+<li><a href="http://sinonjs.org/" target="_blank">Sinon</a> - 替代，模拟的瑞士军刀</li>
+</ul>
+<p>一些工具要通过一些处理才能在服务器端和浏览器端工作</p>
+<ul>
+<li><a href="https://github.com/acuminous/yadda" target="_blank">Yadda</a> - BDD方面与Mocha和Chai工作的很好(在浏览器端使用需要做些小处理，<a href="https://github.com/zpratt/yadda-karma-example" target="_blank">我现在在做这方面的工作</a>)</li>
+<li><a href="https://github.com/cucumber/cucumber-js" target="_blank">Cucumber-js</a> - (BDD) 在服务器端工作的很好，但在浏览器端不能工作（主要是缺少karma方面的支持）</li>
+</ul>
+<p>最后，一些只能在一端工作的好的：</p>
+<ul>
+<li><a href="http://karma-runner.github.io/" target="_blank">Karma</a> - 在浏览器端运行的测试工具</li>
+<li><a href="https://github.com/cjohansen/karma-browserifast" target="_blank">karma-browserifast</a> - Karma的浏览器插件，在浏览器中自动的运行Yadda BDD测试时需要它</li>
+<li><a href="https://github.com/visionmedia/supertest" target="_blank">Supertest</a> - 一个了不起的测试基于Express（nodejs框架） REST风格的工具</li>
+<li><a href="http://casperjs.org/" target="_blank">CasperJS</a> - 测试用户UI交互(能和Yadda一起工作) </li>
+</ul>
+<p>下面会有更多。我计划写至少两篇文章来详细的描述什么是在服务器和浏览器端的测试驱动。目前可以看下我的浏览器端的BDD风格的单元测试的例子,<a href="https://github.com/zpratt/yadda-karma-example" target="_blank">Github上的Yadda/Karma</a>，以及服务器端BDD风格的单元测试的例子,<a href="https://github.com/zpratt/thoughtsom" target="_blank">thoughtsom</a>。我计划在写下篇文章之前写更多的浏览器端测试的代码示例。同时，欢迎大家与我交流。</p>
+<p>P.S 我了解<a href="https://github.com/angular/protractor" target="_blank">Protractor</a>,但我还没有机会去玩一下它。     </p>
+]]></content>
+    
+    
+      <category term="test" scheme="http://www.joeljoy.com/tags/test/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[使用redis来做统计的例子]]></title>
+    <link href="http://www.joeljoy.com/2014/02/15/redis-demo1/"/>
+    <id>http://www.joeljoy.com/2014/02/15/redis-demo1/</id>
+    <published>2014-02-15T12:09:37.000Z</published>
+    <updated>2014-05-01T02:22:41.000Z</updated>
+    <content type="html"><![CDATA[<h2 id="-redis-">使用redis来做统计的简单例子</h2>
+<p>使用redis来完成如下功能</p>
+<ol>
+<li>统计某天的上线人数</li>
+<li>统计用户一日的流失(下线后，第二天未上线的)<a id="more"></a>
+
+</li>
+</ol>
+<h3 id="-schema">设计schema</h3>
+<p>上线：<br>key： <code>online:{YYYY-MM-DD}</code><br>value：userId<br>下线：<br>key： <code>offline:{YYYY-MM-DD}</code><br>value：userId<br>数据类型为set  </p>
+<h3 id="-">采集数据</h3>
+<h4 id="-">采集用户上线数据</h4>
+<p>每次用户上线时，在上线的数据中加入上线用户的userId。<br>例如，如果‘joel’在2014年1月1日上线，那么执行 
+<code>sadd &#39;online:2014-01-01&#39; joel</code> </p>
+<h4 id="-">采集用户下线数据</h4>
+<p>每次用户下线时，在下线的数据中加入下线用户的userId。</p>
+<h3 id="-">数据统计</h3>
+<h4 id="-">统计某天的在线人数</h4>
+<p>例如 统计2014-01-01的。 执行<br><code>scard &#39;online:2014-01-01&#39;</code></p>
+<h4 id="-">统计某天的用户一日的流失</h4>
+<p>例如 统计2014-01-01的。 那么取2013-12-31下线和2014-01-01上线的交集。执行 
+ <code>sinter &#39;offline:2013-12-31&#39; &#39;online:2014-01-01&#39;</code> 然后取结果集的长度</p>
+<p>基于nodejs的实现的完整源码<a href="https://github.com/iamjoel/node-test/tree/master/redis-simple" target="_blank">点这里</a></p>
+]]></content>
+    <summary type="html"><![CDATA[<h2 id="-redis-">使用redis来做统计的简单例子</h2>
+<p>使用redis来完成如下功能</p>
+<ol>
+<li>统计某天的上线人数</li>
+<li>统计用户一日的流失(下线后，第二天未上线的)]]></summary>
+    
+      <category term="redis" scheme="http://www.joeljoy.com/tags/redis/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[初识redis]]></title>
+    <link href="http://www.joeljoy.com/2014/02/15/first-to-see-redis/"/>
+    <id>http://www.joeljoy.com/2014/02/15/first-to-see-redis/</id>
+    <published>2014-02-15T10:22:06.000Z</published>
+    <updated>2014-05-01T02:22:41.000Z</updated>
+    <content type="html"><![CDATA[<p>最近在工作中用到了redis，觉得redis和mongo以及sql类的数据库差别还满大的，以本文来记录本人对redis的初步认识，可能有些不对的地方，欢迎指正。
+<a id="more"></a></p>
+<h2 id="redis-">redis简介</h2>
+<h3 id="-">优势</h3>
+<ol>
+<li>非常非常的快，有测评说比Memcached还快(当大家都是单CPU的时候)，而且是无短板的快，读写都一般的快，所有API都差不多快，也没有MySQL Cluster、MongoDB那样更新同一条记录如Counter时慢下去的毛病。</li>
+<li>丰富的数据结构 : String / Hash / List / Set / Ordered Set。有丰富的api。相比sql类数据库只有table这种数据类型，mongoDB只有json这种数据结构</li>
+<li>因为是个人作品，Redis目前只有2.3万行代码，Keep it simple的死硬做法，使得普通公司而不需淘宝那个级别的文艺公司也可以吃透它。<a href="http://oldblog.antirez.com/post/redis-manifesto.html" target="_blank">Redis宣言</a>就是作者的自白，“代码像首诗”，”设计是一场与复杂性的战斗“，“Coding是一件艰苦的事情，唯一的办法是享受它。如果它已不能带来快乐就停止它。为了防止这一天的出现，我们要尽量避免把Redis往乏味的路上带。”</li>
+</ol>
+<h3 id="-">不足</h3>
+<ol>
+<li>单线程架构，使得代码不用处理平时最让人头痛的并发而大幅简化，但也带来CPU的瓶颈，而且单线程被慢操作所阻塞时，其他请求的延时变得不确定。</li>
+<li>Redis 不是Big Data，数据都在内存中</li>
+<li>Redis 不支持Ad-Hoc Query，提供的只是数据结构的API，没有SQL一样的查询能力</li>
+</ol>
+<h3 id="-">应用场景</h3>
+<ol>
+<li>取最新N个数据的操作</li>
+<li>排行榜应用，取TOP N操作</li>
+<li>需要精准设定过期时间的应用</li>
+<li>计数器应用</li>
+<li>Uniq操作，获取某段时间所有数据排重值</li>
+<li>实时系统，反垃圾系统</li>
+<li>Pub/Sub构建实时消息系统</li>
+<li>构建队列系统</li>
+<li>缓存</li>
+</ol>
+<p><a href="http://blog.nosqlfan.com/html/2235.html" target="_blank">详情</a></p>
+<h3 id="-">数据类型</h3>
+<p>(转自 <a href="http://www.cnblogs.com/lori/archive/2012/05/15/2501862.html" target="_blank">http://www.cnblogs.com/lori/archive/2012/05/15/2501862.html</a>)</p>
+<ol>
+<li><p>string</p>
+<blockquote>
+<p>string是最简单的类型，你可以理解成与Memcached一模一样的类型，一个key对应一个value，其上支持的操作与Memcached的操作类似。但它的功能更丰富。    </p>
+</blockquote>
+</li>
+<li><p>hash</p>
+<blockquote>
+<p>Redis能够存储key对多个属性的数据（比如user1.uname user1.passwd），当然，你完成可以把这些属性以json格式进行存储，直接把它当作string类型进行操作，但这样性能上是对影响的，所以redis提出的Hash类型。    </p>
+</blockquote>
+</li>
+<li><p>list</p>
+<blockquote>
+<p>list是一个链表结构，主要功能是push、pop、获取一个范围的所有值等等。之所以说它是双向的，因为它可以在链表左，右两边分别操作</p>
+</blockquote>
+</li>
+<li><p>set</p>
+<blockquote>
+<p>set是集合，它是string类型的无序集合</p>
+</blockquote>
+</li>
+<li><p>zset</p>
+<blockquote>
+<p>zset是set的一个升级版本，他在set的基础上增加了一个顺序属性，这一属性在添加修改元素的时候可以指定，每次指定后，zset会自动重新按新的值调整顺序。 </p>
+</blockquote>
+</li>
+</ol>
+<h2 id="-">下载安装</h2>
+<p>查看 <a href="http://redis.io/download。" target="_blank">http://redis.io/download。</a><br>因为本屌丝目前用的是windows，所以介绍下windows下的下载安装。<br>redis官方是不支持windows的。windows的非官方版本下载地址
+ <a href="https://github.com/dmajkic/redis/downloads" target="_blank">https://github.com/dmajkic/redis/downloads</a></p>
+<p>解压后，根据计算机位数打开相应的文件夹。打开 redis-server.exe 和 redis-cli.exe。在redis-cli.exe里，对redis进行操作。</p>
+<p>点这里查看<a href="/2014/02/15/redis-demo1/">使用redis来做统计的例子</a></p>
+<h2 id="-">资源</h2>
+<ul>
+<li><a href="http://blog.jobbole.com/44476/" target="_blank">http://blog.jobbole.com/44476/</a></li>
+<li><a href="http://try.redis.io/" target="_blank">在线try redis</a></li>
+<li><a href="http://openmymind.net/2012/1/23/The-Little-Redis-Book" target="_blank">Redis little book</a></li>
+<li><a href="http://www.redisdoc.com/en/latest/" target="_blank">Redis 命令参考(中文版)</a> </li>
+<li><a href="http://www.redisdoc.com/en/latest/" target="_blank">Redis 命令参考(版)</a></li>
+<li><a href="http://blog.jobbole.com/44476/" target="_blank">http://blog.jobbole.com/44476/</a></li>
+<li><a href="http://www.redisbook.com/en/latest/" target="_blank">Redis 设计与实现</a></li>
+<li><a href="http://blog.nosqlfan.com/html/2235.html" target="_blank">Redis应用场景</a></li>
+<li><a href="http://openmymind.net/2011/11/8/Redis-Zero-To-Master-In-30-Minutes-Part-1/" target="_blank">http://openmymind.net/2011/11/8/Redis-Zero-To-Master-In-30-Minutes-Part-1/</a></li>
+</ul>
+]]></content>
+    <summary type="html"><![CDATA[<p>最近在工作中用到了redis，觉得redis和mongo以及sql类的数据库差别还满大的，以本文来记录本人对redis的初步认识，可能有些不对的地方，欢迎指正。
+]]></summary>
+    
+      <category term="redis" scheme="http://www.joeljoy.com/tags/redis/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[javascript正则表达式]]></title>
+    <link href="http://www.joeljoy.com/2014/02/05/javascript-regexp/"/>
+    <id>http://www.joeljoy.com/2014/02/05/javascript-regexp/</id>
+    <published>2014-02-05T14:38:51.000Z</published>
+    <updated>2014-05-01T02:22:41.000Z</updated>
+    <content type="html"><![CDATA[<p>正则表达式就是一个用来描述字符模式的对象。它被用来在文本中执行模式匹配(pattern-matching)以及”查找-替换”(search-and-replace)的任务。javascript中正则的风格类似Perl中正则的风格。
+<a id="more"></a></p>
+<h2 id="-">创建正则表达式</h2>
+<p><code>var reg = new RegExp(pattern,modifiers);</code>
+或
+<code>var reg = /pattern/modifiers;</code><br>modifiers包括</p>
+<ul>
+<li><p>g : 执行全局匹配（查找所有匹配而非在找到第一个匹配后停止）
+  如  </p>
+<figure class="highlight 'Hey,"><figcaption><span>Is this all there Is '.replace(/Is/g, 'is');//替换某字符串中所有的Is为is</span></figcaption><table><tr><td class="gutter"><pre>1
+</pre></td><td class="code"><pre> 
+</pre></td></tr></table></figure>
+</li>
+<li><p>i : 执行对大小写不敏感的匹配</p>
+</li>
+<li>m : 执行多行匹配，具体见<a href="http://javascript.info/tutorial/ahchors-and-multiline-mode" target="_blank">这里</a><br>ps 新建一正则时可多个模式，如 <code>/hEllO/ig</code></li>
+</ul>
+<h2 id="javascript-">JavaScript正则表达式对象的常用方法</h2>
+<ul>
+<li><p>.test()。该方法对一个字符串进行匹配。并根据匹配结果返回true或false。例如</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre>1
+</pre></td><td class="code"><pre><span class="regexp">/e/</span>.test(<span class="string">'The best things in life are free'</span>); <span class="regexp">//</span><span class="literal">true</span>
+</pre></td></tr></table></figure>
+</li>
+<li><p>.exec()。该方法将对一个字符串进行匹配。并返回第一个匹配项目。例如：</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre>1
+</pre></td><td class="code"><pre>/e/.exec(<span class="string">'The best things in life are free'</span>); <span class="regexp">//</span> [<span class="string">"e"</span>]
+</pre></td></tr></table></figure>
+
+</li>
+</ul>
+<p>在字符串方法中，有<code>match</code>,与<code>exec</code>类似。如</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre>1
+</pre></td><td class="code"><pre><span class="string">'The best things in life are free'</span>.match(<span class="regexp">/e/</span>); <span class="regexp">//</span>[<span class="string">"e"</span>]
+</pre></td></tr></table></figure>
+
+<h2 id="-">正则表达式中的元字符</h2>
+<blockquote>
+<p>正则表达式中的元字符是用来替代一类具有相同属性的字符的特殊字符，它也可以被称为字符类(character class)。 </p>
+</blockquote>
+<ul>
+<li>.   查找单个字符，除了换行和行结束符。</li>
+<li>\w  查找单词字符（字母、数字以及下划线”_”）。</li>
+<li>\W  查找非单词字符。</li>
+<li>\d  查找数字。</li>
+<li>\D  查找非数字字符。</li>
+<li>\s  查找空白字符。</li>
+<li>\S  查找非空白字符。</li>
+<li>\b  匹配单词边界。</li>
+<li>\B  匹配非单词边界。</li>
+<li>\0  查找 NUL 字符。</li>
+<li>\n  查找换行符。</li>
+<li>\f  查找换页符。</li>
+<li>\r  查找回车符。</li>
+<li>\t  查找制表符。</li>
+<li>\v  查找垂直制表符。</li>
+<li>\xxx    查找以八进制数 xxx 规定的字符。</li>
+<li>\xdd    查找以十六进制数 dd 规定的字符。</li>
+<li>\uxxxx  查找以十六进制数 xxxx 规定的 Unicode 字符。</li>
+</ul>
+<h2 id="-">正则表达式中的括号</h2>
+<h3 id="-">大括号 ()</h3>
+<p>进行分组。好比email地址，我们就可以将它分为</p>
+<ol>
+<li>@前面的部分；</li>
+<li>@后面’.’之前的部分；</li>
+<li>’.’之后的部分；
+如果要匹配所有gamil邮箱中@前的用户名中带有jack的替换为joel<figure class="highlight"><table><tr><td class="gutter"><pre>1
+</pre></td><td class="code"><pre><span class="string">'iamjack007@gmail.com'</span>.replace(<span class="regexp">/^(\w*)(jack)(\w*)@gmail\.com$/</span>, <span class="string">'$1joel$3@gmail.com'</span>);  <span class="regexp">//</span><span class="string">"iamjoel007@gmail.com"</span>
+</pre></td></tr></table></figure>
+
+</li>
+</ol>
+<p>这种类似于模块化的思想，不仅使我们一次可以专注于查找其中的一个小部分，也可以让我们在后面可以轻松的替换其中的某个部分，而不需要纠结于“牵一发而动全身”的痛苦。</p>
+<h3 id="-">方括号 []</h3>
+<p>用于查找某个范围内的字符</p>
+<ul>
+<li>[abc]   查找方括号之间的任何字符。</li>
+<li>[^abc]  查找任何不在方括号之间的字符。</li>
+<li>[0-9]   查找任何从 0 至 9 的数字。</li>
+<li>[a-z]   查找任何从小写 a 到小写 z 的字符。</li>
+<li>[A-Z]   查找任何从大写 A 到大写 Z 的字符。</li>
+<li>[A-z]   查找任何从大写 A 到小写 z 的字符。</li>
+<li>[adgk]  查找方括号内的任何字符。</li>
+<li>[^adgk] 查找不在方括号内的任何字符。</li>
+</ul>
+<h2 id="-">量词</h2>
+<p>匹配多个。如匹配3个数字可用正则<code>/\d{3}/</code>。</p>
+<ul>
+<li>n+  匹配任何包含至少一个 n 的字符串。</li>
+<li>n*  匹配任何包含零个或多个 n 的字符串。</li>
+<li>n?  匹配任何包含零个或一个 n 的字符串。</li>
+<li>n{X}    匹配包含 X 个 n 的序列的字符串。</li>
+<li>n{X,Y}  匹配包含 X 或 Y 个 n 的序列的字符串。</li>
+<li>n{X,}   匹配包含至少 X 个 n 的序列的字符串。</li>
+<li>n$  匹配任何结尾为 n 的字符串。</li>
+<li>^n  匹配任何开头为 n 的字符串。</li>
+<li>?=n     匹配任何其后紧接指定字符串 n 的字符串。</li>
+<li>?!n     匹配任何其后没有紧接指定字符串 n 的字符串。</li>
+</ul>
+<h2 id="-">习题</h2>
+<ol>
+<li>在字符串”1.5 0 123 -7 -0.4”里面匹配带小数点的数，无论是正的还是负的。</li>
+<li>在字符串”1.5 0 123”中匹配数字([1.5,0,123])，无论是整数还是小数。</li>
+<li><a href="http://javascript.info/tutorial/practice" target="_blank">更多习题</a></li>
+</ol>
+<hr>
+<h2 id="-">进阶</h2>
+<h2 id="-">贪婪和非贪婪模式</h2>
+<p>默认正则匹配是贪婪模式的，即前面的正则匹配尽可能多的。如</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre>1
+</pre></td><td class="code"><pre>/(\d+)(\d+)/.exec(<span class="string">'12345'</span>);<span class="regexp">//</span>结果[<span class="string">"12345"</span>, <span class="string">"1234"</span>, <span class="string">"5"</span>]
+</pre></td></tr></table></figure>
+
+<p>开启非贪婪模式,量词后面加<code>?</code>
+如</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre>1
+</pre></td><td class="code"><pre>/(\d+?)(\d+)/.exec(<span class="string">'12345'</span>);<span class="regexp">//</span>结果[<span class="string">"12345"</span>, <span class="string">"1"</span>, <span class="string">"2345"</span>]
+</pre></td></tr></table></figure>
+
+<p>更详细的的解释，点<a href="http://javascript.info/tutorial/greedy-and-lazy" target="_blank">这里</a></p>
+<h2 id="-">非捕获性分组</h2>
+<p>在括号内容以<code>?:</code>开头。如：</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre>1
+</pre></td><td class="code"><pre><span class="regexp">/(?:\d+)\d+/</span>.exec(<span class="string">'123'</span>);<span class="regexp">//</span> 结果 [<span class="string">"123"</span>]
+</pre></td></tr></table></figure>
+
+<h2 id="-">匹配</h2>
+<p>Lookaround 是 向前匹配(Lookahead) 和 向后匹配(Lookbehind) 的统称。
+向前匹配</p>
+<blockquote>
+<p>包括向前正向匹配（Positive Lookahead）和向前负向匹配（Negative Lookahead），语法是 <code>?=</code> 和 <code>?!</code>。<br>前正向匹配：匹配任何其后紧接指定字符串 n 的字符串。<br>向前负向匹配：匹配任何其后没有紧接指定字符串 n 的字符串。</p>
+</blockquote>
+<p>类似的还有向后匹配。<br>在javascript目前只能使用 Lookahead，还无法使用 Lookbehind。</p>
+<p>Lookaround 参考教程：<a href="http://www.regular-expressions.info/lookaround.html" target="_blank">http://www.regular-expressions.info/lookaround.html</a></p>
+<h2 id="-http-xregexp-com-"><a href="http://xregexp.com/" target="_blank">正则拓展库</a></h2>
+<p><a href="http://xregexp.com/" target="_blank">xregexp</a>特性</p>
+<ol>
+<li>支持所有的ES5的正则的语法。</li>
+<li>兼容 Explorer 5.5+, Firefox 1.5+, Chrome, Safari 3+, and Opera 11+。在nodejs上也可以使用。</li>
+<li>比原生正则可读性高。</li>
+<li>比原生正则易用。</li>
+</ol>
+<h2 id="-">更多资源</h2>
+<ul>
+<li><a href="http://javascript.info/tutorial/regular-expressions-javascript" target="_blank">正则简明参考</a></li>
+</ul>
+<h2 id="-">参考</h2>
+<ul>
+<li><a href="http://www.w3school.com.cn/js/jsref_obj_regexp.asp" target="_blank">http://www.w3school.com.cn/js/jsref_obj_regexp.asp</a></li>
+<li><a href="http://www.html-js.com/article/A-day-to-learn-JavaScript-JavaScript-regular-expressions-a" target="_blank">http://www.html-js.com/article/A-day-to-learn-JavaScript-JavaScript-regular-expressions-a</a></li>
+<li><a href="http://javascript.info/tutorial/regular-expressions-javascript" target="_blank">http://javascript.info/tutorial/regular-expressions-javascript</a></li>
+<li><a href="https://github.com/lifesinger/lifesinger.github.com/issues/162#wechat_redirect" target="_blank">https://github.com/lifesinger/lifesinger.github.com/issues/162#wechat_redirect</a></li>
+</ul>
+<h2 id="-">习题答案</h2>
+<ol>
+<li>&#39;1.5 0 123 -7 -0.4&#39;.match(/(-?\d+.\d+)/g)</li>
+<li>&#39;1.5 0 123&#39;.match(/(\d+.?\d+)|0/g)</li>
+</ol>
+]]></content>
+    <summary type="html"><![CDATA[<p>正则表达式就是一个用来描述字符模式的对象。它被用来在文本中执行模式匹配(pattern-matching)以及”查找-替换”(search-and-replace)的任务。javascript中正则的风格类似Perl中正则的风格。
+]]></summary>
+    
+      <category term="regexp" scheme="http://www.joeljoy.com/tags/regexp/"/>
+    
+      <category term="javascript" scheme="http://www.joeljoy.com/categories/javascript/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[2014计划及愿望]]></title>
+    <link href="http://www.joeljoy.com/2014/02/03/2014schedule/"/>
+    <id>http://www.joeljoy.com/2014/02/03/2014schedule/</id>
+    <published>2014-02-03T10:51:23.000Z</published>
+    <updated>2014-05-01T02:22:41.000Z</updated>
+    <content type="html"><![CDATA[<p>2014是马年（码年）哈哈~在这就俗套的写下新年的计划以及愿望吧。<a id="more"></a><br>生活</p>
+<ol>
+<li>感情顺顺利利~两个人都平平安安</li>
+<li>让自己变的更有趣</li>
+<li>能够坚持不懈的维护这个博客</li>
+<li>能遇到一些志同道合的朋友一起做产品</li>
+<li>能有闲钱买MBA</li>
+</ol>
+<p>工作</p>
+<ol>
+<li>研究linux，把鸟哥的私房菜看完</li>
+<li>更多的写测试用例，以及把自己的项目进行持续集成</li>
+<li>把主流的mvx框架都用一遍</li>
+<li>多读源码</li>
+<li>学习下ruby和python</li>
+<li>能涨薪水~</li>
+</ol>
+]]></content>
+    <summary type="html"><![CDATA[<p>2014是马年（码年）哈哈~在这就俗套的写下新年的计划以及愿望吧。]]></summary>
+    
+      <category term="todo" scheme="http://www.joeljoy.com/tags/todo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[hexo]]></title>
+    <link href="http://www.joeljoy.com/2014/02/03/hexo/"/>
+    <id>http://www.joeljoy.com/2014/02/03/hexo/</id>
+    <published>2014-02-03T02:45:49.000Z</published>
+    <updated>2014-06-01T02:24:29.000Z</updated>
+    <content type="html"><![CDATA[<h2 id="-hexo">关于hexo</h2>
+<p><a href="http://zespia.tw/hexo/" target="_blank">hexo</a>是一个基于Node.js的静态博客程序，可以方便的生成静态网页托管在github和Heroku上。作者是来自台湾的@tommy351。引用@tommy351的话，hexo：</p>
+<blockquote>
+<p>快速、简单且功能强大的 Node.js 博客框架。
+A fast, simple &amp; powerful blog framework, powered by Node.js.</p>
+</blockquote>
+<p>类似于jekyll、Octopress、Wordpress，我们可以用hexo创建自己的博客，托管到github或Heroku上，绑定自己的域名，用markdown写文章。</p>
+<h2 id="-">安装</h2>
+<figure class="highlight"><table><tr><td class="gutter"><pre>1
+</pre></td><td class="code"><pre>npm <span class="keyword">install</span> -g hexo
+</pre></td></tr></table></figure>
+
+<h2 id="-">初始化</h2>
+<figure class="highlight"><table><tr><td class="gutter"><pre>1
+</pre></td><td class="code"><pre>hexo init
+</pre></td></tr></table></figure>
+
+<h2 id="-">创建文章</h2>
+<figure class="highlight"><table><tr><td class="gutter"><pre>1
+</pre></td><td class="code"><pre>hexo <span class="keyword">new</span> <span class="string">'文章名'</span>
+</pre></td></tr></table></figure>
+
+<p>然后可以去source/_posts/文章名.md 去编辑文章内容</p>
+<h2 id="-">预览</h2>
+<figure class="highlight"><table><tr><td class="gutter"><pre>1
+2
+</pre></td><td class="code"><pre>hexo generate
+hexo <span class="keyword">server</span>
+</pre></td></tr></table></figure>
+
+<h2 id="-">命令缩写</h2>
+<p>hexo g == hexo generate<br>hexo d == hexo deploy<br>hexo s == hexo server<br>hexo n == hexo new    </p>
+<h2 id="-">参考及更多</h2>
+<ul>
+<li><a href="http://zespia.tw/hexo/" target="_blank">http://zespia.tw/hexo/</a></li>
+<li><a href="http://zipperary.com/2013/05/28/hexo-guide-1/#more" target="_blank">http://zipperary.com/2013/05/28/hexo-guide-1/#more</a></li>
+<li><a href="http://zipperary.com/2013/05/28/hexo-guide-2/" target="_blank">http://zipperary.com/2013/05/28/hexo-guide-2/</a> </li>
+</ul>
+]]></content>
+    
+    
+  </entry>
+  
+</feed>

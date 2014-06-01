@@ -1,0 +1,417 @@
+
+ <!DOCTYPE HTML>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  
+    <title>grunt-bowercopy介绍 | Joel&#39;s Blog</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+    
+    <meta name="author" content="Joel">
+    
+    <meta name="description" content="在介绍grunt-bowercopy之前,假定你是熟悉bower和grunt的（在本文末尾中有介绍bower与grunt的链接）。">
+    
+    
+    
+    
+    <link rel="alternative" href="/atom.xml" title="Joel&#39;s Blog" type="application/atom+xml">
+    
+    
+    <link rel="icon" href="/img/favicon.ico">
+    
+    
+    <link rel="apple-touch-icon" href="/img/pacman.jpg">
+    <link rel="apple-touch-icon-precomposed" href="/img/pacman.jpg">
+    
+    <link rel="stylesheet" href="/css/style.css" type="text/css">
+</head>
+
+  <body>
+    <header>
+      <div>
+		
+			<div id="imglogo">
+				<a href="/"><img src="/img/logo.svg" alt="Joel&#39;s Blog" title="Joel&#39;s Blog"/></a>
+			</div>
+			
+			<div id="textlogo">
+				<h1 class="site-name"><a href="/" title="Joel&#39;s Blog">Joel&#39;s Blog</a></h1>
+				<h2 class="blog-motto">业精于勤而荒于嬉,行成于思而毁于随</h2>
+			</div>
+			<div class="navbar"><a class="navbutton navmobile" href="#" title="菜单">
+			</a></div>
+			<nav class="animated">
+				<ul>
+					<ul>
+					 
+						<li><a href="/">首页</a></li>
+					
+						<li><a href="/archives">存档</a></li>
+					
+						<li><a href="/categories">分类</a></li>
+					
+						<li><a href="/tags">标签</a></li>
+					
+					<li><form class="search" action="//google.com/search" method="get" accept-charset="utf-8">
+						<label>Search</label>
+						<input type="search" id="search" autocomplete="off" maxlength="20" placeholder="Search" />
+						<input type="hidden" name="q" value="site:www.joeljoy.com">
+					</form></li>
+				</ul>
+			</nav>			
+</div>
+    </header>
+    <div id="container">
+      <div id="main" class="post" itemscope itemprop="blogPost">
+	<article itemprop="articleBody"> 
+		<header class="article-info clearfix">
+  <h1 itemprop="name">
+    
+      <a href="/2014/03/21/introduce-grunt-bowercopy/" title="grunt-bowercopy介绍" itemprop="url">grunt-bowercopy介绍</a>
+  </h1>
+  <p class="article-author">By
+    
+      <a href="http://www.joeljoy.com" title="Joel">Joel</a>
+    </p>
+  <p class="article-time">
+    <time datetime="2014-03-21T13:10:06.000Z" itemprop="datePublished">2014年03月21日</time>
+    更新日期:<time datetime="2014-05-01T02:22:41.000Z" itemprop="dateModified">2014年05月01日</time>
+    
+  </p>
+</header>
+	<div class="article-content">
+		
+		
+		<div id="toc" class="toc-article">
+			<strong class="toc-title">文章目录</strong>
+		<ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#-"><span class="toc-number">1.</span> <span class="toc-text">用途</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#-"><span class="toc-number">2.</span> <span class="toc-text">安装</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#-"><span class="toc-number">3.</span> <span class="toc-text">示例</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#-"><span class="toc-number">4.</span> <span class="toc-text">资源</span></a></li><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#bower"><span class="toc-number">4.1.</span> <span class="toc-text">bower</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#grunt"><span class="toc-number">4.2.</span> <span class="toc-text">grunt</span></a></li></ol>
+		</div>
+		
+		<p>在介绍grunt-bowercopy之前,假定你是熟悉bower和grunt的（在本文末尾中有介绍bower与grunt的链接）。
+<a id="more"></a></p>
+<h2 id="-">用途</h2>
+<p>对使用bower的项目，安装好依赖后（<code>bower install</code>），依赖的目录结构是类似这样的:
+<img src="/image/introduce-grunt-bowercopy/file-dir.jpg" alt="file-dir"></p>
+<p>我们资源的目录是在src下的。我们只需要bower_components下的部分文件。例如对于jquery,我们只需要jquery.min.js，而不需要其他文件。</p>
+<p>我们当然可以人肉的从bower_components中复制需要的文件黏贴到src下。但是，好麻烦^-^。况且在一个项目的依赖很多时，依靠人肉，那就一场灾难了。这时候，就到grunt-bowercopy出场的时候了~</p>
+<p><a href="https://www.npmjs.org/package/grunt-bowercopy" target="_blank">grunt-bowercopy</a>通过声明要源文件和目的地的路径，将文件复制到指定位置。如果该项目没有安装依赖，那么在执行复制任务前，它会自动的执行<code>bower install</code>来安装依赖。</p>
+<p>grunt-bowercopy是依赖grunt的。</p>
+<h2 id="-">安装</h2>
+<figure class="highlight"><table><tr><td class="gutter"><pre>1
+</pre></td><td class="code"><pre>npm install grunt<span class="attribute">-bowercopy</span> <span class="subst">--</span>save<span class="attribute">-dev</span>
+</pre></td></tr></table></figure>
+
+<h2 id="-">示例</h2>
+<p><code>Gruntfile.js</code></p>
+<figure class="highlight"><table><tr><td class="gutter"><pre>1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+</pre></td><td class="code"><pre>grunt.initConfig({
+    bowercopy: {
+        options: {
+            srcPrefix: <span class="string">'bower_components'</span>
+            <span class="comment">//clean: false // default false</span>
+        },
+        libs: {
+            options: {
+                destPrefix: <span class="string">'libs/vendor'</span> <span class="comment">//目的地文件夹的路径</span>
+            },
+            files: {
+              <span class="string">'requirejs.js'</span>: <span class="string">'requirejs/require.js'</span>
+            }
+        }
+    }
+});
+<span class="built_in">require</span>( <span class="string">"load-grunt-tasks"</span> )( grunt );<span class="comment">//加载所有的grunt任务</span>
+</pre></td></tr></table></figure>
+
+<p>运行<code>grunt bowercopy</code>，会将<code>bower_component/requirejs/require.js</code> 移动到<code>libs/vendor/requirejs.js</code>。</p>
+<p>更多选项见 <a href="https://www.npmjs.org/package/grunt-bowercopy" target="_blank">https://www.npmjs.org/package/grunt-bowercopy</a></p>
+<h2 id="-">资源</h2>
+<h3 id="bower">bower</h3>
+<p><a href="http://bower.io/" target="_blank">http://bower.io/</a><br><a href="http://code.tutsplus.com/tutorials/meet-bower-a-package-manager-for-the-web--net-27774" target="_blank">http://code.tutsplus.com/tutorials/meet-bower-a-package-manager-for-the-web--net-27774</a><br><a href="http://iamjoel.github.io/2014/03/02/introduce-bower/" target="_blank">http://iamjoel.github.io/2014/03/02/introduce-bower/</a></p>
+<h3 id="grunt">grunt</h3>
+<p><a href="http://gruntjs.com/getting-started" target="_blank">http://gruntjs.com/getting-started</a><br><a href="http://weblog.bocoup.com/introducing-grunt/" target="_blank">http://weblog.bocoup.com/introducing-grunt/</a></p>
+  
+	</div>
+		<footer class="article-footer clearfix">
+
+  <div class="article-tags">
+  
+  <span></span> <a href="/tags/bower/">bower</a>
+  </div>
+
+
+
+
+<div class="article-share" id="share">
+
+  <div data-url="http://www.joeljoy.com/2014/03/21/introduce-grunt-bowercopy/" data-title="grunt-bowercopy介绍 | Joel&#39;s Blog" data-tsina="3223119582" class="share clearfix">
+  </div>
+
+</div>
+</footer>   	       
+	</article>
+	
+<nav class="article-nav clearfix">
+ 
+ <div class="prev" >
+ <a href="/2014/03/26/use-vim-in-sublime/" title="在sublime中使用vim">
+  <strong>PREVIOUS:</strong><br/>
+  <span>
+  在sublime中使用vim</span>
+</a>
+</div>
+
+
+<div class="next">
+<a href="/2014/03/15/mechanical-keyboard/"  title="机械键盘">
+ <strong>NEXT:</strong><br/> 
+ <span>机械键盘
+</span>
+</a>
+</div>
+
+</nav>
+
+	
+<section class="comment">
+	<div class="ds-thread"></div>
+</section>
+
+</div>  
+      <div class="openaside"><a class="navbutton" href="#" title="显示侧边栏"></a></div>
+
+  <div id="toc" class="toc-aside">
+  <strong class="toc-title">文章目录</strong>
+  <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#-"><span class="toc-number">1.</span> <span class="toc-text">用途</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#-"><span class="toc-number">2.</span> <span class="toc-text">安装</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#-"><span class="toc-number">3.</span> <span class="toc-text">示例</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#-"><span class="toc-number">4.</span> <span class="toc-text">资源</span></a></li><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#bower"><span class="toc-number">4.1.</span> <span class="toc-text">bower</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#grunt"><span class="toc-number">4.2.</span> <span class="toc-text">grunt</span></a></li></ol>
+  </div>
+
+<div id="asidepart">
+<div class="closeaside"><a class="closebutton" href="#" title="隐藏侧边栏"></a></div>
+<aside class="clearfix">
+
+  
+<div class="categorieslist">
+	<p class="asidetitle">分类</p>
+		<ul>
+		
+			<li><a href="/categories/javascript/" title="javascript">javascript<sup>1</sup></a></li>
+		
+		</ul>
+</div>
+
+
+  
+<div class="tagslist">
+	<p class="asidetitle">标签</p>
+		<ul class="clearfix">
+		
+			<li><a href="/tags/bower/" title="bower">bower<sup>2</sup></a></li>
+		
+			<li><a href="/tags/firefox/" title="firefox">firefox<sup>1</sup></a></li>
+		
+			<li><a href="/tags/nodejs/" title="nodejs">nodejs<sup>1</sup></a></li>
+		
+			<li><a href="/tags/npm/" title="npm">npm<sup>1</sup></a></li>
+		
+			<li><a href="/tags/redis/" title="redis">redis<sup>2</sup></a></li>
+		
+			<li><a href="/tags/regexp/" title="regexp">regexp<sup>1</sup></a></li>
+		
+			<li><a href="/tags/sublime/" title="sublime">sublime<sup>1</sup></a></li>
+		
+			<li><a href="/tags/test/" title="test">test<sup>1</sup></a></li>
+		
+			<li><a href="/tags/todo/" title="todo">todo<sup>1</sup></a></li>
+		
+			<li><a href="/tags/vim/" title="vim">vim<sup>1</sup></a></li>
+		
+			<li><a href="/tags/玩物/" title="玩物">玩物<sup>1</sup></a></li>
+		
+		</ul>
+</div>
+
+
+  <div class="rsspart">
+	<a href="/atom.xml" target="_blank" title="rss">RSS 订阅</a>
+</div>
+
+  <div class="linkslist">
+  <p class="asidetitle">友情链接</p>
+    <ul>
+      <li><a href="http://yangjian.me" target="_blank" title="YangJian">Alimon's Blog</a></li>
+      <li><a href="http://zespia.tw/hexo" target="_blank" title="Hexo">Hexo</a></li>
+    </ul>
+</div>
+
+</aside>
+</div>
+    </div>
+    <footer><div id="footer" >
+	
+	<div class="line">
+		<span></span>
+		<div class="author"></div>
+	</div>
+	
+	
+	<div class="social-font" class="clearfix">
+		
+		<a href="http://weibo.com/iamjoel" target="_blank" title="weibo"></a>
+		
+		
+		
+		<a href="https://github.com/iamjoel" target="_blank" title="github"></a>
+		
+		
+	</div>
+		<p class="copyright">Powered by <a href="http://zespia.tw/hexo/" target="_blank" title="hexo">hexo</a> and Theme by <a href="https://github.com/A-limon/pacman" target="_blank" title="Pacman">Pacman</a> © 2014 
+		
+		<a href="http://www.joeljoy.com" target="_blank" title="Joel">Joel</a>
+		
+		</p>
+</div>
+</footer>
+    <script src="/js/jquery-2.0.3.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){ 
+  $('.navbar').click(function(){
+    $('header nav').toggleClass('shownav');
+  });
+  var myWidth = 0;
+  function getSize(){
+    if( typeof( window.innerWidth ) == 'number' ) {
+      myWidth = window.innerWidth;
+    } else if( document.documentElement && document.documentElement.clientWidth) {
+      myWidth = document.documentElement.clientWidth;
+    };
+  };
+  var m = $('#main'),
+      a = $('#asidepart'),
+      c = $('.closeaside'),
+      o = $('.openaside');
+  $(window).resize(function(){
+    getSize(); 
+    if (myWidth >= 1024) {
+      $('header nav').removeClass('shownav');
+    }else
+    {
+      m.removeClass('moveMain');
+      a.css('display', 'block').removeClass('fadeOut');
+      o.css('display', 'none');
+      
+      $('#toc.toc-aside').css('display', 'none');
+        
+    }
+  });
+  c.click(function(){
+    a.addClass('fadeOut').css('display', 'none');
+    o.css('display', 'block').addClass('fadeIn');
+    m.addClass('moveMain');
+  });
+  o.click(function(){
+    o.css('display', 'none').removeClass('beforeFadeIn');
+    a.css('display', 'block').removeClass('fadeOut').addClass('fadeIn');      
+    m.removeClass('moveMain');
+  });
+  $(window).scroll(function(){
+    o.css("top",Math.max(80,260-$(this).scrollTop()));
+  });
+});
+</script>
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  var ai = $('.article-content>iframe'),
+      ae = $('.article-content>embed'),
+      t  = $('#toc'),
+      h  = $('article h2')
+      ah = $('article h2'),
+      ta = $('#toc.toc-aside'),
+      o  = $('.openaside'),
+      c  = $('.closeaside');
+  if(ai.length>0){
+    ai.wrap('<div class="video-container" />');
+  };
+  if(ae.length>0){
+   ae.wrap('<div class="video-container" />');
+  };
+  if(ah.length==0){
+    t.css('display','none');
+  }else{
+    c.click(function(){
+      ta.css('display', 'block').addClass('fadeIn');
+    });
+    o.click(function(){
+      ta.css('display', 'none');
+    });
+    $(window).scroll(function(){
+      ta.css("top",Math.max(140,320-$(this).scrollTop()));
+    });
+  };
+});
+</script>
+
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  var $this = $('.share'),
+      url = $this.attr('data-url'),
+      encodedUrl = encodeURIComponent(url),
+      title = $this.attr('data-title'),
+      tsina = $this.attr('data-tsina');
+  var html = [
+  '<a href="#" class="overlay" id="qrcode"></a>',
+  '<div class="qrcode clearfix"><span>扫描二维码分享到微信朋友圈</span><a class="qrclose" href="#share"></a><strong>Loading...Please wait</strong><img id="qrcode-pic" data-src="http://s.jiathis.com/qrcode.php?url=' + encodedUrl + '"/></div>',
+  '<a href="#textlogo" class="article-back-to-top" title="Top"></a>',
+  '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
+  '<a href="#qrcode" class="article-share-qrcode" title="QRcode"></a>',
+  '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
+  '<a href="http://service.weibo.com/share/share.php?title='+title+'&url='+encodedUrl +'&ralateUid='+ tsina +'&searchPic=true&style=number' +'" class="article-share-weibo" target="_blank" title="Weibo"></a>',
+  '<span title="Share to"></span>'
+  ].join('');
+  $this.append(html);
+  $('.article-share-qrcode').click(function(){
+    var imgSrc = $('#qrcode-pic').attr('data-src');
+    $('#qrcode-pic').attr('src', imgSrc);
+    $('#qrcode-pic').load(function(){
+        $('.qrcode strong').text(' ');
+    });
+  });
+});     
+</script>
+
+
+<script type="text/javascript">
+  var duoshuoQuery = {short_name:"null"};
+  (function() {
+    var ds = document.createElement('script');
+    ds.type = 'text/javascript';ds.async = true;
+    ds.src = '//static.duoshuo.com/embed.js';
+    ds.charset = 'UTF-8';
+    (document.getElementsByTagName('head')[0] 
+    || document.getElementsByTagName('body')[0]).appendChild(ds);
+  })();
+</script> 
+
+
+
+
+
+  </body>
+</html>
