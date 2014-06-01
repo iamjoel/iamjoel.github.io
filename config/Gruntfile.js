@@ -9,10 +9,8 @@ module.exports = function(grunt) {
         },
         'copy': {
             source: {
-                'src': ['source/_posts/*.md'],
-                'dest': 'build/_posts/',
-                expand: true, 
-                flatten: true
+                'src': ['source/**/*'],
+                'dest': 'build/',
             },
             config: {
                 'src': [
@@ -47,5 +45,6 @@ module.exports = function(grunt) {
     });
 
     grunt.registerTask('pre', ['clean','copy']);
-    grunt.registerTask('default', ['clean','copy','gh-pages']);
+    grunt.registerTask('syn', 'gh-pages');
+    grunt.registerTask('bac_src', ['clean','copy','gh-pages']);
 };
